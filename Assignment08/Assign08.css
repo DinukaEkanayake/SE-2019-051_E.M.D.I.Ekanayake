@@ -1,0 +1,215 @@
+a{
+	text-decoration:none;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+}
+p{
+	margin-bottom: 0px;
+}
+.topbar{
+	background-color: grey;
+	height: 70px;
+}
+.topbar_items{
+	display: inline-flex;
+}
+.topbar_items h1{
+	padding-left: 40px;
+	color: purple;
+	font-size: 30px;
+}
+.address h1{
+	padding-left: 200px;
+	font-size: 30px;
+	color: purple;
+}
+.social{
+	display: inline-flex;
+	padding-left: 150px;
+}
+.social a{
+	padding-right: 20px;
+	font-size: 25px;
+	margin-bottom: 10px;
+	padding-top: 15px;
+	margin-top: 10px;
+}
+.social a:hover {
+	transition: background 0.5s;
+	background-color: black;
+}
+.fa{
+	padding-left: 20px;
+}
+.navbar{
+	display: flex;
+	margin-top: 10px;
+	padding-left: 80px;
+	margin-bottom: 40px;
+}
+.links{
+	padding-left: 480px;
+	padding-top: 30px;
+}
+.links ul li{
+	display: inline;
+}
+.links ul li a{
+	color: white;
+	margin-right: 40px;
+	padding: 20px;
+}
+.links ul li a:focus {
+	background-color: darkgreen;
+}
+.links a:hover{
+	background-color: darkgreen;
+	transition: background 0.5s;
+}
+.row{
+	display: flex;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.left{
+	margin-left: 60px;
+}
+.left a:focus {
+	background-color: darkgreen;
+}
+.left a{
+	display: block;
+	padding-bottom: 30px;
+	color: white;
+	border-bottom: 1px solid darkgreen;
+	transition: background 0.5s;
+}
+.left a:hover {
+	background-color: darkgreen;
+}
+.navibar{
+	display: flex;
+	margin-left: 350px;
+}
+.dropdown .dropbutton{
+	color: white;
+	padding: 7px;
+	border: none;
+	background-color: darkred;
+	transition: background 0.5s;
+}
+.dropbutton:hover {
+	background-color: darkgreen;
+}
+.navibar a:hover {
+	background-color: darkgreen;
+}
+.content{
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+.content a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	padding-right: 25px;
+}
+.dropdown:hover .content{
+	display: block;
+}
+.search{
+	padding-left: 30px;
+}
+#button{
+	background-color: darkgreen;
+	color: white;
+	padding-left: 50px;
+	padding-right: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: darkred;
+	transition: background 0.5s;
+	cursor: pointer;
+}
+#button:hover{
+	background-color: darkgreen;
+}
+.image{
+	padding-left: 350px;
+	padding-top: 30px;
+	position: relative;
+	display: inline-flex;
+}
+.image .shop_now {
+	background-color: darkred;
+	color: white;
+	position: absolute;
+	border-radius: 20px;
+	padding: 10px;
+    top: 70%;
+    left: 65%;
+    border-color: white;
+    transition: background 0.5s;
+    cursor: pointer;
+}
+.shop_now:hover{
+	background-color: darkgreen;
+}
+.image .descript{
+	 top: 54%;
+    left: 52%;
+    color: floralwhite;
+    position: absolute;
+    transform: rotate(-20deg);
+}
+.image .topic {
+	color: white;
+	position: absolute;
+    padding-left: 20px;
+    letter-spacing: 20px;
+    color: green;
+    font-weight: bold;
+    font-size: 130%;
+    padding-left: 550px;
+}
+.title{
+	text-align: center;
+	padding-left: 100px;
+}
+mark { 
+	background-color: darkred;
+	color: white;
+}
+.title:after{
+	content: '';
+	background: darkgreen;
+	widows: 80px;
+	height: 5px;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.col2{
+	display: inline-block;
+	padding-left: 100px;
+	padding-bottom: 60px;
+
+}
+.products{
+	background-color: floralwhite;
+	padding-left: 30px;
+}
+.col1{
+	display: inline-grid;
+	padding-left: 100px;
+	padding-bottom: 40px;
+}
+.rating{
+	line-height: 0px;
+}
